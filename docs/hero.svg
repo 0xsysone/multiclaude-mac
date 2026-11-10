@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-label="MultiClaude: several Claude Desktop apps side by side, one account each, with links routed to the right one">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14161c"/><stop offset="1" stop-color="#0c0d11"/>
+    </linearGradient>
+    <linearGradient id="t1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e58a68"/><stop offset="1" stop-color="#cc6a4a"/></linearGradient>
+    <linearGradient id="t2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1fc24a"/><stop offset="1" stop-color="#079a2c"/></linearGradient>
+    <linearGradient id="t3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5aa9e6"/><stop offset="1" stop-color="#2f84c9"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 9 5 1 9z" fill="#1fc24a"/></marker>
+    <marker id="arrowDim" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 9 5 1 9z" fill="#3a3f4b"/></marker>
+  </defs>
+  <rect width="1280" height="560" rx="28" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1279" height="559" rx="27.5" fill="none" stroke="#262a33"/>
+
+  <!-- left: the pitch -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="72" y="150" fill="#8b93a3" font-size="20" letter-spacing="3">MULTICLAUDE</text>
+    <text x="72" y="222" fill="#f4f5f7" font-size="56" font-weight="700" letter-spacing="-1">Every account,</text>
+    <text x="72" y="288" fill="#f4f5f7" font-size="56" font-weight="700" letter-spacing="-1">its own Claude.</text>
+    <text x="72" y="346" fill="#a7aebb" font-size="23">Run several Claude Desktop apps side by side on macOS.</text>
+    <text x="72" y="380" fill="#a7aebb" font-size="23">One colour per account. Sign-ins land in the right one.</text>
+    <g transform="translate(72 428)">
+      <rect width="352" height="52" rx="12" fill="#1b1e26" stroke="#2c313c"/>
+      <text x="22" y="33" fill="#1fc24a" font-size="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$</text>
+      <text x="44" y="33" fill="#e7e9ee" font-size="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">./install.sh "Claude C"</text>
+    </g>
+  </g>
+
+  <!-- right: a link comes back from the browser, the router hands it to the right app -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <g transform="translate(772 74)">
+      <rect width="396" height="58" rx="14" fill="#1b1e26" stroke="#2c313c"/>
+      <circle cx="26" cy="29" r="6" fill="#3a3f4b"/><circle cx="46" cy="29" r="6" fill="#3a3f4b"/><circle cx="66" cy="29" r="6" fill="#3a3f4b"/>
+      <text x="92" y="36" fill="#c9ced8" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">claude://…sign-in return</text>
+    </g>
+    <path d="M970 134V178" stroke="#1fc24a" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <g transform="translate(880 186)">
+      <rect width="180" height="50" rx="25" fill="#10231a" stroke="#1fc24a" stroke-width="1.5"/>
+      <text x="90" y="32" fill="#bff2cd" font-size="20" font-weight="600" text-anchor="middle">Router</text>
+    </g>
+    <path d="M912 238C860 262 838 276 824 302" stroke="#3a3f4b" stroke-width="2.5" fill="none" stroke-dasharray="5 7" marker-end="url(#arrowDim)"/>
+    <path d="M970 238V300" stroke="#1fc24a" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <path d="M1028 238C1080 262 1102 276 1116 302" stroke="#3a3f4b" stroke-width="2.5" fill="none" stroke-dasharray="5 7" marker-end="url(#arrowDim)"/>
+
+    <!-- the Dock -->
+    <rect x="732" y="298" width="476" height="176" rx="34" fill="#1a1d24" stroke="#2c313c"/>
+    <g font-weight="700" font-size="54" text-anchor="middle" fill="#ffffff">
+      <rect x="764" y="322" width="112" height="112" rx="27" fill="url(#t1)"/><text x="820" y="398">A</text>
+      <rect x="914" y="322" width="112" height="112" rx="27" fill="url(#t2)"/><text x="970" y="398">B</text>
+      <rect x="1064" y="322" width="112" height="112" rx="27" fill="url(#t3)"/><text x="1120" y="398">C</text>
+    </g>
+    <rect x="911" y="319" width="118" height="118" rx="30" fill="none" stroke="#bff2cd" stroke-width="2" opacity=".55"/>
+    <circle cx="820" cy="454" r="4.5" fill="#8b93a3"/><circle cx="970" cy="454" r="4.5" fill="#8b93a3"/><circle cx="1120" cy="454" r="4.5" fill="#8b93a3"/>
+    <g fill="#8b93a3" font-size="17" text-anchor="middle">
+      <text x="820" y="510">work</text><text x="970" y="510">personal</text><text x="1120" y="510">client</text>
+    </g>
+  </g>
+</svg>

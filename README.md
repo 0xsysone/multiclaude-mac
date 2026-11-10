@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/0xsysone/multi-claude-desktop-mac/stargazers"><img src="https://img.shields.io/github/stars/0xsysone/multi-claude-desktop-mac?style=flat&color=1fc24a" alt="Stars"></a>
+  <a href="https://github.com/0xsysone/multiclaude-mac/stargazers"><img src="https://img.shields.io/github/stars/0xsysone/multiclaude-mac?style=flat&color=1fc24a" alt="Stars"></a>
   <img src="https://img.shields.io/badge/macOS-13%2B-0c0d11" alt="macOS 13+">
   <img src="https://img.shields.io/badge/Claude%20Desktop-4.x-d97757" alt="Claude Desktop 4.x">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT"></a>
@@ -23,8 +23,8 @@ when the first one hits its weekly limit — you sign out and back in, and your 
 **MultiClaude gives every account its own Claude, all open at once.** macOS only.
 
 ```bash
-git clone https://github.com/0xsysone/multi-claude-desktop-mac.git
-cd multi-claude-desktop-mac
+git clone https://github.com/0xsysone/multiclaude-mac.git
+cd multiclaude-mac
 ./install.sh
 ```
 
@@ -122,8 +122,8 @@ within Anthropic's terms.
 ## Star history
 
 <p align="center">
-  <a href="https://star-history.com/#0xsysone/multi-claude-desktop-mac&Date">
-    <img src="https://api.star-history.com/svg?repos=0xsysone/multi-claude-desktop-mac&type=Date" alt="Star history chart" width="640">
+  <a href="https://star-history.com/#0xsysone/multiclaude-mac&Date">
+    <img src="https://api.star-history.com/svg?repos=0xsysone/multiclaude-mac&type=Date" alt="Star history chart" width="640">
   </a>
 </p>
 

@@ -13,8 +13,8 @@ abonnement pour quand le premier atteint sa limite hebdomadaire), il faut se dé
 reconnecter, et les sessions Code s'arrêtent avec.
 
 ```bash
-git clone https://github.com/0xsysone/multiclaude.git
-cd multiclaude
+git clone https://github.com/0xsysone/multi-claude-desktop-mac.git
+cd multi-claude-desktop-mac
 ./install.sh
 ```
 
